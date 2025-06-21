@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Mobile Responsive Styles */
+
+/* Base responsive container */
+.container, .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Hero Section Styles */
+.heroSection {
+  padding: 3rem 0;
+}
+
+/* Responsive Typography */
+.mobile-responsive-heading {
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+@media (max-width: 768px) {
+  .h1Heading {
+    font-size: 2rem !important; /* Adjust based on your needs */
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .h2Heading {
+    font-size: 1.5rem !important; /* Adjust based on your needs */
+    line-height: 1.3;
+  }
+  
+  .subPara {
+    font-size: 1rem !important;
+    line-height: 1.4;
+  }
+}
+
+/* Button Styles */
+.linkBtn, .sectionBtn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 576px) {
+  .linkBtn, .sectionBtn {
+    width: 100%;
+    max-width: 280px;
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Section Styles */
+.section {
+  padding: 2rem 0;
+}
+
+.outerSection {
+  margin-bottom: 2rem;
+}
+
+/* Image Container */
+.mobile-image-container {
+  margin: 1rem auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.mobile-image-container img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Star icon responsive */
+.star-icon {
+  width: 24px;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .star-icon {
+    width: 20px;
+  }
+}
+
+/* Section Head Adjustments */
+@media (max-width: 768px) {
+  .sectionHead {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .sectionHead img {
+    margin: 0.5rem 0;
+  }
+}
+
+/* Add spacing between sections on mobile */
+@media (max-width: 768px) {
+  .outerSection {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
