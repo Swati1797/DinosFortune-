@@ -90,6 +90,9 @@
 }
 
 @media (max-width: 576px) {
+  .h1Heading{
+    font-size: 54px;
+  }
   .linkBtn, .sectionBtn {
     width: 100%;
     max-width: 280px;
