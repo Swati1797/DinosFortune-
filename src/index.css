@@ -7,7 +7,7 @@ body {
 /* Header css */
 header {
   position: absolute;
-  top: 0;
+  top: 2vh;
   left: 0;
   right: 0;
   z-index: 10;
